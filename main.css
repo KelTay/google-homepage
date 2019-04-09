@@ -10,7 +10,7 @@
     right: 10px;
 }
 
-span {
+a {
     padding: 5px;
 }
 
@@ -34,4 +34,16 @@ img {
 
 p {
     text-align: center;
+}
+
+#bottom_left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#bottom_right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
