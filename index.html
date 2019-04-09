@@ -2,16 +2,28 @@
 <html>
     <head>
         <title>Google homepage replica</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-        
+        <nav id="top_left">
+            <span>About</span>
+            <span>Store</span>
+        </nav>
+        <nav id="top_right">
+            <span>Gmail</span>
+            <span>Images</span>
+        </nav>
+        <img class="block" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            
         <form action="#" method="GET" name="my_search_form">
-            <input type="text" name="search_text">
-            <input type="submit" value="Google Search" name="search_button">
-            <input type="submit" value="I'm Feeling Lucky" name="lucky_button">
+            <input class="block" type="text" name="search_text">
+            
+            <div id="buttons">
+                <input type="submit" value="Google Search" name="search_button">
+                <input type="submit" value="I'm Feeling Lucky" name="lucky_button">
+            </div>
+
             <p>Google offered in: <a href="#">Français</a></p>
         </form>
-
     </body>
 </html>
