@@ -9,6 +9,13 @@ a {
     padding: 5px;
 }
 
+#a-signin {
+    background-color: rgb(70,136,241);
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 2px;
+}
+
 #a-french {
     color: rgb(1, 1, 150);
 }
