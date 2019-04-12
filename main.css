@@ -40,9 +40,10 @@ a {
     margin: auto;
     margin-top: 2px;
     margin-bottom: 30px;
-    width: 500px;
+    width: 590px;
     height: 40px;
-    border: solid rgb(209, 209, 209) 1px;
+    background-color: white;
+    border: solid rgb(223, 222, 222) 1px;
     border-radius: 25px;
 }
 
@@ -51,7 +52,7 @@ a {
     height: 25px;
     position: absolute;
     top: 330px;
-    right: 445px;
+    right: 400px;
 }
 
 #div-submit-buttons {
