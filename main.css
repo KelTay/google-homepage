@@ -9,6 +9,10 @@ a {
     padding: 5px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 #nav-top-left {
     position: absolute;
     top: 24px;
@@ -17,15 +21,17 @@ a {
 
 #nav-top-right {
     position: absolute;
-    top: 8px;
+    top: 18px;
     right: 20px;
 }
 
 #img-apps {
     position: relative;
-    top: 10px;
-    width: 30px;
-    height: 30px;
+    top: 5px;
+}
+
+#img-apps:hover {
+    text-decoration: none;
 }
 
 #img-logo {
