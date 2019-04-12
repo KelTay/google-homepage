@@ -9,6 +9,10 @@ a {
     padding: 5px;
 }
 
+#a-french {
+    color: rgb(1, 1, 150);
+}
+
 a:hover {
     text-decoration: underline;
 }
