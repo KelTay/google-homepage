@@ -5,25 +5,27 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(54, 54, 54);
     padding: 5px;
 }
 
 #nav-top-left {
     position: absolute;
-    top: 20px;
+    top: 24px;
     left: 20px;
 }
 
 #nav-top-right {
     position: absolute;
-    top: 20px;
+    top: 8px;
     right: 20px;
 }
 
 #img-apps {
     position: relative;
-    top: 5px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 #img-logo {
