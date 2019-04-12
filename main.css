@@ -41,7 +41,7 @@ a:hover {
 #img-logo {
     display: block;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 200px;
     margin-bottom: 8px;
 }
 
@@ -55,14 +55,6 @@ a:hover {
     background-color: white;
     border: solid rgb(223, 222, 222) 1px;
     border-radius: 25px;
-}
-
-#img-microphone {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 330px;
-    right: 400px;
 }
 
 #div-submit-buttons {
