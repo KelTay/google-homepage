@@ -14,6 +14,8 @@ a {
     color: white;
     padding: 7px 10px 7px 10px;
     border-radius: 2px;
+    margin-left: 5px;
+    font-weight: bold;
 }
 
 #a-french {
@@ -26,13 +28,14 @@ a:hover {
 
 #list-top-left {
     position: absolute;
-    top: 24px;
+    padding-left: 0;
+    top: 12px;
     left: 20px;
 }
 
 #list-top-right {
     position: absolute;
-    top: 18px;
+    top: 12px;
     right: 20px;
 }
 
