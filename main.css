@@ -18,6 +18,11 @@ a {
     font-weight: bold;
 }
 
+#a-signin:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 1px 0 rgb(214, 214, 214);
+}
+
 #a-french {
     color: rgb(1, 1, 150);
 }
@@ -70,6 +75,21 @@ a:hover {
 #div-submit-buttons {
     text-align: center;
     letter-spacing: 5px;
+}
+
+#div-submit-buttons input {
+    background-color: rgb(241, 241, 241);
+    border: solid rgb(241, 241, 241) 1px;
+    padding: 7px 15px;
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+#div-submit-buttons input:hover {
+    border: solid rgb(214, 214, 214) 1px;
+    color: black;
+    box-shadow: 0 1px 1px 0 rgb(214, 214, 214);
 }
 
 p {
