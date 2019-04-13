@@ -24,13 +24,13 @@ a:hover {
     text-decoration: underline;
 }
 
-#nav-top-left {
+#list-top-left {
     position: absolute;
     top: 24px;
     left: 20px;
 }
 
-#nav-top-right {
+#list-top-right {
     position: absolute;
     top: 18px;
     right: 20px;
